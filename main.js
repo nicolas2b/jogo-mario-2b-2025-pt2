@@ -1,5 +1,14 @@
 const mario = document.querySelector(".mario")
 const pipe = document.querySelector(".pipe")
+const nuvem = document.querySelector(".nuvem")
+const startButton = document.querySelector(".start")
+const Game0verScreen = document.querySelector(".game-over")
+const scoreElement = document.querySelector(".score")
+
+audioStart = new Audio("./sound/audio_theme.mp3");
+const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+
+let
 
 const jump = () => {
     mario.classList.add("jump");
